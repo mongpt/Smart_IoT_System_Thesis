@@ -1,7 +1,13 @@
 # 🚀 Real-time Multi-robot System with Custom Hardware and Software
 ![My robot](Robot.png)
 
-This repository contains the implementation details for the Bachelor's thesis, "Development of Custom Hardware and Software for Real-time Multi-robot System," submitted to Metropolia University of Applied Sciences on April 28, 2025. The project focuses on designing a custom I/O board for the Raspberry Pi Compute Module 5 (CM5), a three-port Fast Ethernet switch board, and a Python-based embedded application to enable real-time control of a multi-robot system.
+This repository contains the implementation details for the Bachelor's thesis, "Development of Custom Hardware and Software for Real-time Multi-robot System," submitted to Metropolia University of Applied Sciences on April 28, 2025.  
+A compact custom I/O board and 3-port Fast Ethernet switch designed for the Raspberry Pi Compute Module 5
+              (CM5), enabling real-time multi-robot control using Python, WebSocket protocol, and PS4 controller input.
+              The system reads joystick commands, sends them over Ethernet to the robots, and adjusts motor speed via
+              PWM, while continuously streaming RPM feedback for closed-loop control. The project utilized a
+              pyRTOS-based scheduler on the robots and multithreading on the remote controller to ensure smooth,
+              responsive operation across all nodes.
 
 ## 📖 Thesis Document
 
